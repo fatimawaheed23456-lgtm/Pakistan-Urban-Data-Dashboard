@@ -1,7 +1,7 @@
 import pandas as pd
 
 def load_data():
-    df = pd.read_csv("data/worldcities.csv", encoding="utf-8")
+   df = pd.read_csv("worldcities.csv", encoding="utf-8")
     
     df.columns = df.columns.str.strip().str.lower()
     
